@@ -1,0 +1,11 @@
+function [outputArg1,outputArg2] = compute_things(t,p0,T,tf)
+[tP, pP] = ode45(@(t,p)adj_func(t,p,lambda,T,tf), [9.999 0], p0);
+G = zeros(length(tP),1);
+time = ones(length(tP),1);
+for i = 1:length(tP)
+    time(i) = tP(length(tP)-i+1);
+    G(i) = (lambda*pP(length(tP)-i+1,2))/(T*(tf-time(i)));
+end
+plot((tf-time)/T,-T*G);
+end
+

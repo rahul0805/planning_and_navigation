@@ -1,0 +1,13 @@
+function norm = find_norm(x0)
+x = x0(1);
+y = x0(2);
+r1 = 2.5;
+r2 = 5;
+x1=0;
+y1=0;
+x2=5;
+y2=5;
+r = [((x-x1)^2)+((y-y1)^2)-(r1^2),((x-x2)^2)+((y-y2)^2)-(r2^2)]';
+% storer.x = [storer.x,x0];
+% storer.fx = [storer.fx,sqrt(r'*r)];
+norm = r(1)^2 + r(2)^2;

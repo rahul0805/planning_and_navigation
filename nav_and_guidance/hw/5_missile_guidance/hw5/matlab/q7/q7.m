@@ -1,0 +1,19 @@
+lambda_set = [3,4,5];
+lambda = lambda_set(3);
+tf = 10;
+t = 0.001:0.001:10;
+p0 = [1;0];
+T =1;
+[normalised_time1,normalised_dist1] = compute_things(lambda_set(1),p0,T,tf);
+[normalised_time2,normalised_dist2] = compute_things(lambda_set(2),p0,T,tf);
+[normalised_time3,normalised_dist3] = compute_things(lambda_set(3),p0,T,tf);
+fig = figure();
+plot(normalised_time1,normalised_dist1,'Linewidth', 2);
+hold on
+plot(normalised_time2,normalised_dist2,'Linewidth', 2);
+plot(normalised_time3,normalised_dist3,'Linewidth', 2);
+legend('lambda = 3','lambda = 4','lambda = 5');
+saveas(fig,'q7_plot.png');
+savefig(fig,'q7_plot');
+hold off
+
