@@ -1,6 +1,7 @@
 # planning_and_navigation
 
-Useful ressources in this direction.
+Useful resources in this direction.
+
 
 Learning for planning and control by Prof. Dmitry Berenson: https://berenson.robotics.umich.edu/courses/winter2023robotlearning/index.html  
 
