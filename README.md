@@ -10,3 +10,5 @@ Motion Planning by Prof. Dmitry Berenson: https://berenson.robotics.umich.edu/co
 Intro to Alg. Robots by Prof. Dmitry Berenson : https://berenson.robotics.umich.edu/courses/fall2023iar/index.html 
 
 Planning and Learning by Prof. Nikolay Atanasov : https://natanaso.github.io/ece276b/schedule.html 
+
+Mathew kalley: Trajectory optimization : http://www.matthewpeterkelly.com/tutorials/trajectoryOptimization/index.html 
